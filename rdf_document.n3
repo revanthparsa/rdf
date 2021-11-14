@@ -1,0 +1,13 @@
+﻿@prefix : <#> .
+
+
+:Sun :right-of :Birds .
+:Sun :above :Mountains .
+:Birds :above :Mountains .
+:Mountains :above :House .
+:Mountains :above :River .
+:House :above :Land .
+:Land :right-of :River .
+:House :right-of :Boat .
+:Boat :above :River .
+:Tree :above :House .
